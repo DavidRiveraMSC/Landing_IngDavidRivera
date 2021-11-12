@@ -64,6 +64,9 @@ background: #1AA85C;
 .carta{
   height: 373px;
 }
+.carta ul li{
+  height: 42px;
+}
 @media (max-width: 600px) {
   .princing-item {
     margin-top: 100px;
