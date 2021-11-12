@@ -98,5 +98,6 @@
   .Skills-list{
     flex-wrap: wrap;
     list-style: none;
+    justify-content:space-around;
   }
 }

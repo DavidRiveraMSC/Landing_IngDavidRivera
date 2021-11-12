@@ -2,6 +2,7 @@
 /*background: #C9D6FF;
 background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
 background: linear-gradient(to right, #E2E2E2, #C9D6FF);*/
+margin-top: 25px;
 }
 ul li {
   margin-bottom:1.4rem;
@@ -60,8 +61,20 @@ background: #1AA85C;
   -webkit-transform: translate3d(-15px, 0, 0);
   transform: translate3d(-15px, 0, 0);
 }
+.carta{
+  height: 373px;
+}
 @media (max-width: 600px) {
   .princing-item {
-    margin-top: 20px;
+    margin-top: 100px;
+  }
+  .carta{
+    height: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .w-75{
+    width: 100%;
   }
 }
