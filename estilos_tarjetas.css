@@ -60,3 +60,8 @@ background: #1AA85C;
   -webkit-transform: translate3d(-15px, 0, 0);
   transform: translate3d(-15px, 0, 0);
 }
+@media (max-width: 600px) {
+  .princing-item {
+    margin-top: 20px;
+  }
+}

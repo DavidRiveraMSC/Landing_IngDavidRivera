@@ -75,3 +75,28 @@
   text-decoration: none;
   color: #F2935C;
 }
+@media (max-width: 800px) {
+  .texto-banner h1{
+    font-size: 4em;
+  }
+  .texto-banner h3{
+    font-size: 1em;
+  }
+  .Skills-list{
+    flex-wrap: wrap;
+    justify-content:space-around;
+    list-style: none;
+  }
+}
+@media (max-width: 400px) {
+  .texto-banner h1{
+    font-size: 2em;
+  }
+  .texto-banner h3{
+    font-size: 1em;
+  }
+  .Skills-list{
+    flex-wrap: wrap;
+    list-style: none;
+  }
+}
